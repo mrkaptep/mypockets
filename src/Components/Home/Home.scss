@@ -1,0 +1,174 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue1: #356ca0;
+$blue: #607d8b;
+$dark-grey: #383838;
+
+$font-family1: 'Alef', sans-serif;
+$font-family2: 'Annie Use Your Telescope', cursive;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Architects Daughter', cursive;
+$font-family5: 'Average', serif;
+$font-family6: 'Be Vietnam', sans-serif;
+$font-family7: 'Barlow Semi Condensed', sans-serif;
+$font-family8: 'Big Shoulders Display', cursive;
+$font-family9: 'Courgette', cursive;
+$font-family10: 'Kalam', cursive;
+$font-family11: 'Mada', sans-serif;
+$font-family12: 'Rock Salt', cursive;
+$font-family13: 'Special Elite', cursive;
+
+.homeContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: $light-gray;
+   width: 100vw;
+   height: 100vh;
+}
+.logoBox{
+   display: flex;
+   height: 100px;
+   width: 100%;
+   margin-bottom: 50px;
+}
+.home-headerText{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 200px;
+   margin-right: 140px;
+   color: $dark-blue;
+   font-size: 25px;
+   font-family: $font-family13;
+   flex: 2;
+}
+
+.homeLogo {
+   display: flex;
+   margin: 20px 10px 10px 40px;
+   width: 440px;
+   height: 80px;
+   border-radius: 10px;
+}
+.logoutbutton{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 50px;
+   background-color: $light-gray;
+   font-size: 12px;
+   margin-top: 20px;
+   margin-right: 35px;
+   // border: 2px $dark-blue solid;
+   border: none;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.logoutBox{
+   display: flex;
+   // flex-direction: column;
+   align-items: center;
+}
+.logouttext{
+   display: flex;
+   color: $dark-blue;
+   font-size: 20px;
+   margin-left: 8px;
+   font-family: $font-family13;
+}
+.dashboardContainer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 600px;
+   height: 260px;
+}
+.dashboardContainer2{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   width: 600px;
+   height: 270px;
+}
+
+
+.homebutton{
+   display: flex;
+   justify-content: center;
+   width: 150px;
+   height: 150px;
+   background-color: white;
+   margin-right: 40px;
+   border: 2px $dark-blue solid;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.homeBox{
+   display: flex;
+   justify-content: center;
+   width: 150px;
+   height: 150px;
+   background-color: white;
+   margin-right: 40px;
+   border: 2px $dark-blue solid;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.homebutton:hover{
+   border: 2px $blue solid;
+
+   .homeIcon{
+      color: $blue;
+   }
+   .text{
+      color: $blue;
+   }
+}
+.dashboardBox{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.homeIcon{
+   display: flex;
+   color: $dark-blue;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.text{
+   display: flex;
+   color: $dark-blue;
+   font-size: 24px;
+   font-family: $font-family13;
+}
+.text1{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   margin-top: -20px;
+   height: 50px;
+   width: 600px;
+   color: $dark-blue;
+   font-size: 24px;
+   font-family: $font-family13;
+}
+
+.dashboardBox2{
+   width: 200px;
+}
+
+.text3{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   margin-top: -20px;
+   height: 40px;
+   width: 600px;
+   color: $dark-blue;
+   font-size: 24px;
+   font-family: $font-family13;
+}

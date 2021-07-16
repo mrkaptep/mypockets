@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Router} from 'react-router-dom';
+import {AuthProvider} from './Context/AuthContext';
+import { IntializeAxios } from './Utils/Utils';
+import history from './history';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router history={history}>
+    <AuthProvider>
+        <IntializeAxios/>
+        <App/>
+    </AuthProvider>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

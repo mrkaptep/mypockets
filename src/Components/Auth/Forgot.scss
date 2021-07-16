@@ -1,0 +1,99 @@
+$light-gray: #f8f8f8;
+$dark-blue: #28527a;
+$blue1: #356ca0;
+$blue: #607d8b;
+$dark-grey: #383838;
+
+$font-family1: 'Alef', sans-serif;
+$font-family2: 'Annie Use Your Telescope', cursive;
+$font-family3: 'Merriweather', serif;
+$font-family4: 'Architects Daughter', cursive;
+$font-family5: 'Average', serif;
+$font-family6: 'Be Vietnam', sans-serif;
+$font-family7: 'Barlow Semi Condensed', sans-serif;
+$font-family8: 'Big Shoulders Display', cursive;
+$font-family9: 'Courgette', cursive;
+$font-family10: 'Kalam', cursive;
+$font-family11: 'Mada', sans-serif;
+$font-family12: 'Rock Salt', cursive;
+$font-family13: 'Special Elite', cursive;
+
+.forgotContainer {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   background-color: $blue;
+}
+
+.forgotPW-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: $light-gray;
+   margin-top: 120px;
+   height: 315px;
+   width: 400px;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.forgot-logo {
+   margin-top: 40px;
+   margin-bottom: 30px;
+   // width: 240px;
+   height: 65px;
+   border-radius: 10px;
+}
+
+.forgotEmail{
+   display: flex;
+   flex-direction: column;
+}
+
+.forgotLabel{
+   display: flex;
+   width: 280px;
+   margin-top: 10px;
+   // margin-left: 8px;
+   font-size: 14px;
+   color: $dark-blue;
+}
+
+.forgotPW-input-field {
+   height: 35px;
+   width: 300px;
+   background: white;
+   border-radius: 8px;
+   border: 1px;
+   border-bottom: white;
+   margin-bottom: 10px;
+   margin-top: 6px;
+   padding-left: 8px;
+   margin-right: 8px;
+}
+
+.forgotButton {
+   width: 260px;
+   height: 40px;
+   background-color: $dark-blue;
+   color: $light-gray;
+   text-decoration: none;
+   border-radius: 25px;
+   font-size: 1.1em;
+   margin-top: 20px;
+   // margin: 20px 10px 18px 10px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   border: none;
+}
+
+.checkEmailText{
+   display: flex;
+   height: 100px;
+   width: 350px;
+   font-family: $font-family13;
+   font-size: 24px;
+   color: $dark-blue;
+   margin-top: 30px;
+   margin-left: 55px;
+}
